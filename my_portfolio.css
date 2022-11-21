@@ -10,6 +10,8 @@ a {
 
 .flex {
     display: flex;
+    position: absolute;
+    
 }
 
 div.wrapper {
@@ -59,6 +61,7 @@ ul.navigation li button {
 
 .intro-image img {
     width: 300px;
+    
 }
 
 div.intro {
@@ -66,11 +69,14 @@ div.intro {
 }
 
 div.intro-text {
-    margin-left: 25px;
-    width: 380px;  
+    float: right;
+    height: 470px;
+    width: 380px;
+    padding: 0 10px;
+    margin-right: 25px;
 }
 
-div.about {
+  div.about {
     justify-content: space-between; /* horizontal plane */
     align-items: center; /* vertical plane */
 }
@@ -81,14 +87,18 @@ div.about-text {
 
 div.about-skills span {
     display: flex;
+    flex-direction: row;
 }
 
 div.about-skills span li {
     margin: 3px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     border: 1px solid rgba(0, 0, 0, 0.13);
     border-radius: 5px;
     padding: 2px;
     font-size: 13px;
     background-color: pink;
+}
+h5 {
+    padding: auto;
 }
