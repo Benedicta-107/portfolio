@@ -13,12 +13,14 @@ a {
 }
 
 div.wrapper {
-    background-color: rgba(220,259,240,265);
+    background-color: pink;
     padding: 10px 40px;
     width: 57%;
     margin: 0 auto;
-    box-shadow: 5px 4px aquamarine;
+    box-shadow: 5px 4px palevioletred;
+    background-image: linear-gradient(to right, rgba(37, 150, 190, 0.007), rgba(230, 112, -43, 0.267));
 }
+
 .name {
     text-align: left;
     white-space: nowrap;
@@ -88,5 +90,5 @@ div.about-skills span li {
     border-radius: 5px;
     padding: 2px;
     font-size: 13px;
-    background-color: paleturquoise;
+    background-color: pink;
 }
